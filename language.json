@@ -1,0 +1,44 @@
+{
+  "languageId": "dart",
+  "extensions": [
+    "dart"
+  ],
+  "serverId": "dart",
+  "server": {
+    "strategy": "exe-search",
+    "command": "dart",
+    "args": [
+      "language-server",
+      "--client-id",
+      "deck.editor"
+    ]
+  },
+  "rootMarker": "pubspec.yaml",
+  "initializationOptions": {
+    "suggestFromUnimportedLibraries": true
+  },
+  "configuration": {
+    "dart": {
+      "completeFunctionCalls": true,
+      "enableSnippets": true
+    }
+  },
+  "statusNotifications": {
+    "$/analyzerStatus": {
+      "phase": "ready",
+      "flagParam": "isAnalyzing",
+      "detailWhenTrue": "analyzing\u2026",
+      "detailWhenFalse": "ready"
+    }
+  },
+  "extraTokenColors": [
+    {
+      "token": "variable.interpolation",
+      "foreground": "9CDCFE"
+    },
+    {
+      "token": "property.interpolation",
+      "foreground": "9CDCFE"
+    }
+  ]
+}
