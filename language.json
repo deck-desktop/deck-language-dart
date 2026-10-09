@@ -1,5 +1,6 @@
 {
   "languageId": "dart",
+  "version": "1.0.0",
   "extensions": [
     "dart"
   ],
