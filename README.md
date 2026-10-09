@@ -23,6 +23,13 @@ Pinning it in this file would make it a property of the language rather than of 
 `snippets/awesome-flutter.json` is [Awesome Flutter Snippets](https://github.com/Nash0x7E2/awesome-flutter-snippets)
 by Neevash Ramdial, MIT licensed, with `stless` and `stful` prefix aliases added.
 
+## Debugging
+
+Nothing extra: the SDK includes the debugger (`dart debug_adapter`). **Debug <file>.dart** in the
+editor's Run and Debug panel runs a plain Dart program with breakpoints, stepping and variables. A
+Flutter app is debugged by attaching to it: run it from the Flutter panel, then **Attach to** in
+Run and Debug.
+
 ## Installing it
 
 From inside Deck: **Settings -> Plugins -> Browse**, pick it, and it loads straight away.
